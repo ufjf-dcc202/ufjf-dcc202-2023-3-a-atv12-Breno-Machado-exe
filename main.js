@@ -1,7 +1,7 @@
 
 
 document.entrada.addEventListener('submit',leFormulario);
-leFormulario();
+//leFormulario();
 
 function leFormulario (event) {
     event.preventDefault();
@@ -9,5 +9,5 @@ function leFormulario (event) {
     const quantidade = document.entrada.quantidade.value;
 
     console.log(`fruta: ${fruta} qtd: ${quantidade}`);
-
+    //document.entrada.submit();
 }
