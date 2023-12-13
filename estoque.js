@@ -20,7 +20,10 @@ export function getEstoque(){
 
 export function transacao(origem, destino, quantidade, fruta){
     if(origem === 'pomar'){
-        estoque[destino][0].qtd += quantidade;
+        cont pessoa = estoque[destino];
+        for(let i =0 ; i<pessoa.length; i++){
+            const monte = pessoa[i];
+            if(monte.qtd += quantidade;
     }
+
 }
-    
