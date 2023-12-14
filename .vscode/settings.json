@@ -1,3 +1,4 @@
 {
-    "testing.automaticallyOpenPeekView": "never"
+    "testing.automaticallyOpenPeekView": "never",
+    "cSpell.language": "en,pt,pt-BR"
 }
